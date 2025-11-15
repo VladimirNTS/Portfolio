@@ -1,0 +1,181 @@
+
+
+body {
+  background: #191919;
+  color: #D9D9D9;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 40px;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  color: #42446E;
+  font-size: 18px;
+  margin: 0;
+}
+
+p {
+  font-weight: regular;
+  font-size: 22px;
+  color: #A7A7A7;
+}
+
+.purple {
+  color: #843DFF;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+}
+
+header li {
+  margin: 0;
+  margin-right: 30px;
+  list-style: None;
+}
+
+header li a {
+  text-decoration: none;
+  color: #A7A7A7;
+}
+
+header .social a {
+  margin-right: 10px;
+}
+
+header .social a:last-of-type {
+  margin-right: 0;
+}
+
+header li a::after {
+  content: "";
+  display: block;
+  width: 0;
+  background: #A7A7A7;
+  height: 2px;
+  transition: all .3s ease;
+}
+
+header .menu img:hover {
+  cursor: pointer;
+}
+
+header li a:hover::after {
+  width: 100%
+}
+
+.hero {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hero-text {
+  max-width: 50%;
+}
+
+.tech-stack {
+  margin-bottom: 50px;
+  margin-top: 150px;
+}
+
+.tech-title {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+.tech-list div {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+
+.projects {
+  margin-bottom: 50px;
+  margin-top: 175px;
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 75px;
+}
+
+
+.footer-up {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 0;
+  padding-bottom: 40px;
+  border-bottom: 2px solid #42446E;
+}
+
+.footer-up .links {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer a {
+  text-decoration: none;
+  color: #A7A7A7;
+  margin: 0;
+  transition: all .3s ease;
+}
+
+footer a:hover {
+  color: #666666;
+}
+
+footer .menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 50px 0;
+}
+
+footer ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  margin: 0;
+  margin-right: 40px;
+  list-style: None;
+}
+
+
