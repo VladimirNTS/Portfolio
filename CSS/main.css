@@ -134,10 +134,28 @@ header li a:hover::after {
 
 
 .tech-list div {
-  flex: 0 0 calc(100% / 6 + 40px);
+  width: calc(100% / 6 + 0px);
   margin-bottom: 40px;
   padding: 0;
   text-align: center;
+}
+
+@media(max-width: 995px){
+  .tech-list div {
+    min-width: calc(100% / 6 + 20px);
+  }
+}
+
+@media(max-width: 545px){
+  .tech-list div {
+    min-width: calc(100% / 3);
+  }
+}
+
+@media(max-width: 400px){
+  .tech-list div {
+    min-width: calc(100% / 2);
+  }
 }
 
 .projects {
